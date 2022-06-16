@@ -11,6 +11,10 @@ public class PrimitiveDataTypesApplication {
         System.out.println("myByte: " + String.valueOf(primitiveDataTypes.getMyByte()));
         primitiveDataTypes.setMyByte(charByte);
         System.out.println("myByte: " + String.valueOf(primitiveDataTypes.getMyByte()));
+        short myShort = 32767;
+        primitiveDataTypes.setMyShort(myShort);
+        System.out.println("myShort: " + String.valueOf(primitiveDataTypes.getMyShort()));
+
 
     }
 }
