@@ -6,10 +6,15 @@ public class PrimitiveDataTypes {
     // it can store characters. If you need characters, use char data type instead of byte because of limited size of byte.
     private byte myByte;
 
-    // size of short is 2 bytes
+    // size of short is 2 bytes (16 bits)
     // short stores numbers. Not decimals.
     // Stores whole numbers from -32,768 to 32,767
     private short myShort;
+
+    // size of int is 4 bytes (32 bits)
+    // int stores numbers. Not decimals.
+    // Stores whole numbers from -2,147,483,648 to 2,147,483,647
+    private int myInt;
 
     public PrimitiveDataTypes() {
     }
@@ -28,5 +33,13 @@ public class PrimitiveDataTypes {
 
     public void setMyShort(short myShort) {
         this.myShort = myShort;
+    }
+
+    public int getMyInt() {
+        return myInt;
+    }
+
+    public void setMyInt(int myInt) {
+        this.myInt = myInt;
     }
 }
