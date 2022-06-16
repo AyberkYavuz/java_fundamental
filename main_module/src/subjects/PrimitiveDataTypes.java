@@ -16,6 +16,11 @@ public class PrimitiveDataTypes {
     // Stores whole numbers from -2,147,483,648 to 2,147,483,647
     private int myInt;
 
+    // size of long is 8 bytes (64 bits)
+    // long stores numbers. Not decimals.
+    // Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+    private long myLong;
+
     public PrimitiveDataTypes() {
     }
 
@@ -42,4 +47,14 @@ public class PrimitiveDataTypes {
     public void setMyInt(int myInt) {
         this.myInt = myInt;
     }
+
+    public long getMyLong() {
+        return myLong;
+    }
+
+    public void setMyLong(long myLong) {
+        this.myLong = myLong;
+    }
+
+
 }

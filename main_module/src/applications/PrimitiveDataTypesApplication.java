@@ -16,10 +16,13 @@ public class PrimitiveDataTypesApplication {
         primitiveDataTypes.setMyShort(myShort);
         System.out.println("myShort: " + String.valueOf(primitiveDataTypes.getMyShort()));
 
+        // minimum value that int can store
         int myInt = -2147483648;
         primitiveDataTypes.setMyInt(myInt);
         System.out.println("myInt: " + String.valueOf(primitiveDataTypes.getMyInt()));
 
-
+        long myLong = 1147483649;
+        primitiveDataTypes.setMyLong(myLong);
+        System.out.println("myLong: " + String.valueOf(primitiveDataTypes.getMyLong()));
     }
 }
