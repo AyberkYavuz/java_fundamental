@@ -1,7 +1,7 @@
 package applications;
 
-import subjects.LinkedListHandler;
-import subjects.ArrayListHandler;
+import sourcepackage.LinkedListHandler;
+import sourcepackage.ArrayListHandler;
 
 public class LinkedListVsArrayList {
 

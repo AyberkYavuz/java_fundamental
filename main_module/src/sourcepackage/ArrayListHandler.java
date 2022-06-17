@@ -1,4 +1,4 @@
-package subjects;
+package sourcepackage;
 import java.util.ArrayList;
 
 public class ArrayListHandler {

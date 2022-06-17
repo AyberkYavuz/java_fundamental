@@ -1,4 +1,4 @@
-package subjects;
+package sourcepackage;
 
 public abstract class Animal {
     protected int age;

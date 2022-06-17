@@ -1,5 +1,5 @@
 package applications;
-import subjects.PrimitiveDataTypes;
+import sourcepackage.PrimitiveDataTypes;
 
 public class PrimitiveDataTypesApplication {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package subjects;
+package sourcepackage;
 
 public class Dog extends Animal implements MakingSound, Eating{
 

@@ -1,4 +1,4 @@
-package subjects;
+package sourcepackage;
 import java.util.LinkedList;
 
 public class LinkedListHandler {
