@@ -21,6 +21,22 @@ public class PrimitiveDataTypes {
     // Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
     private long myLong;
 
+    // size of float is 4 bytes (32 bits)
+    // Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+    private float myFloat;
+
+    // size of double is 8 bytes (64 bits)
+    // Stores fractional numbers. Sufficient for storing 15 decimal digits
+    private double myDouble;
+
+    // size of boolean is 1 bit
+    // Stores true or false values
+    private boolean flag;
+
+    // size of char is 2 bytes (16 bits)
+    // Stores a single character/letter or ASCII values
+    private char myChar;
+
     public PrimitiveDataTypes() {
     }
 
@@ -56,5 +72,36 @@ public class PrimitiveDataTypes {
         this.myLong = myLong;
     }
 
+    public float getMyFloat() {
+        return myFloat;
+    }
 
+    public void setMyFloat(float myFloat) {
+        this.myFloat = myFloat;
+    }
+
+    public double getMyDouble() {
+        return myDouble;
+    }
+
+    public void setMyDouble(double myDouble) {
+        this.myDouble = myDouble;
+    }
+
+
+    public boolean isFlag() {
+        return flag;
+    }
+
+    public void setFlag(boolean flag) {
+        this.flag = flag;
+    }
+
+    public char getMyChar() {
+        return myChar;
+    }
+
+    public void setMyChar(char myChar) {
+        this.myChar = myChar;
+    }
 }

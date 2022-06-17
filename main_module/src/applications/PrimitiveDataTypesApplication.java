@@ -24,5 +24,21 @@ public class PrimitiveDataTypesApplication {
         long myLong = 1147483649;
         primitiveDataTypes.setMyLong(myLong);
         System.out.println("myLong: " + String.valueOf(primitiveDataTypes.getMyLong()));
+
+        float myFloat = 0.000006f;
+        primitiveDataTypes.setMyFloat(myFloat);
+        System.out.println("myFloat: " + String.valueOf(primitiveDataTypes.getMyFloat()));
+
+        double myDouble = 1.55454;
+        primitiveDataTypes.setMyDouble(myDouble);
+        System.out.println("myDouble: " + String.valueOf(primitiveDataTypes.getMyDouble()));
+
+        boolean flag = true;
+        primitiveDataTypes.setFlag(flag);
+        System.out.println("flag: " + String.valueOf(primitiveDataTypes.isFlag()));
+
+        char myChar = 'A';
+        primitiveDataTypes.setMyChar(myChar);
+        System.out.println("myChar: " + primitiveDataTypes.getMyChar());
     }
 }
