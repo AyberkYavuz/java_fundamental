@@ -2,6 +2,7 @@ package applications;
 
 import sourcepackage.Cat;
 import sourcepackage.Dog;
+import sourcepackage.Animal;
 
 public class AbstractClassInterfaceUsageApplication {
 
