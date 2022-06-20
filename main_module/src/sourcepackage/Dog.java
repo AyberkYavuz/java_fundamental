@@ -35,6 +35,7 @@ public class Dog extends Animal implements MakingSound, Eating{
     }
 
     @Override
+    @RunImmediately(times = 3)
     public void makeSound() {
         System.out.println("Wof Wof Wof");
     }
