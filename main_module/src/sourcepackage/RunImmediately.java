@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 // They don't directly affect the code that you annotate but those annotations can be processed something else
 // such as by the compiler or at run time with some code that you write yourself.
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD) // you need to specify the type (method, class etc.)
+@Target(ElementType.METHOD) // you need to specify the type (method, class etc.). You can give more than 1 type in {}
 public @interface RunImmediately {
     int times() default 1; // attribute of the annotation.
 }
