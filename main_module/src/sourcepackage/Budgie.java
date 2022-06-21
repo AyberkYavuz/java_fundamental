@@ -19,4 +19,8 @@ public class Budgie extends Bird{
             System.out.println("şü şü şü şü");
         }
     }
+
+    public void bounce(){
+        System.out.println("I am bouncing!");
+    }
 }
