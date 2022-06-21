@@ -10,4 +10,8 @@ public class Raven extends Bird {
     public void makeSound() {
         System.out.println("Gak gak gak");
     }
+
+    public void observePeople(){
+        System.out.println("I am observing people around me!");
+    }
 }
