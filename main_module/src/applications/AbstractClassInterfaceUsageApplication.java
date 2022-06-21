@@ -1,8 +1,7 @@
 package applications;
 
-import sourcepackage.Cat;
-import sourcepackage.Dog;
-import sourcepackage.Animal;
+import objectoriented.Cat;
+import objectoriented.Dog;
 
 public class AbstractClassInterfaceUsageApplication {
 

@@ -1,7 +1,7 @@
 package applications;
 
-import sourcepackage.LinkedListHandler;
-import sourcepackage.ArrayListHandler;
+import datastructres.LinkedListHandler;
+import datastructres.ArrayListHandler;
 
 public class LinkedListVsArrayList {
 

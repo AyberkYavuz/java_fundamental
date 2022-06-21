@@ -1,4 +1,6 @@
-package sourcepackage;
+package objectoriented;
+
+import annotations.RunImmediately;
 
 public class Dog extends Animal implements MakingSound, Eating{
 

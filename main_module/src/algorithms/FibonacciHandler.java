@@ -1,4 +1,4 @@
-package sourcepackage;
+package algorithms;
 
 public class FibonacciHandler {
     // Example fibonacci nuumbers;

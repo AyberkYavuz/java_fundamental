@@ -1,4 +1,4 @@
-package sourcepackage;
+package objectoriented;
 
 public interface Eating {
     public void eat();

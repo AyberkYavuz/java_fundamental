@@ -1,10 +1,10 @@
 package applications;
-import sourcepackage.Printer;
+import objectoriented.Printer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import sourcepackage.Cat;
+import objectoriented.Cat;
 
 public class GenericsApplication {
     public static void main(String[] args){

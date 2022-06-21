@@ -1,4 +1,4 @@
-package sourcepackage;
+package objectoriented;
 
 public class Cat extends Animal implements MakingSound{
 

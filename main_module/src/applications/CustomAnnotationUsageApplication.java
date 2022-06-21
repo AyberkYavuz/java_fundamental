@@ -1,7 +1,7 @@
 package applications;
 
-import sourcepackage.Dog;
-import sourcepackage.RunImmediately;
+import objectoriented.Dog;
+import annotations.RunImmediately;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

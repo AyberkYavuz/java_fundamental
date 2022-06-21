@@ -1,4 +1,4 @@
-package sourcepackage;
+package datastructres;
 import java.util.LinkedList;
 
 public class LinkedListHandler {

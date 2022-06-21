@@ -1,7 +1,7 @@
 package applications;
 
-import sourcepackage.Employee;
-import sourcepackage.HashMapHandler;
+import objectoriented.Employee;
+import datastructres.HashMapHandler;
 
 
 public class HashMapApplication {

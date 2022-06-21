@@ -1,4 +1,4 @@
-package sourcepackage;
+package other;
 
 public class PrimitiveDataTypes {
     // one byte is 8 bits. A bit can be 0 or 1.

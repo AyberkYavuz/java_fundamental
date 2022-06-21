@@ -1,4 +1,4 @@
-package sourcepackage;
+package objectoriented;
 
 public class Bird {
     private String name;

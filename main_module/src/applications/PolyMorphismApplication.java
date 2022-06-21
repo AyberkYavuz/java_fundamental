@@ -1,8 +1,8 @@
 package applications;
 
-import sourcepackage.Bird;
-import sourcepackage.Budgie;
-import sourcepackage.Raven;
+import objectoriented.Bird;
+import objectoriented.Budgie;
+import objectoriented.Raven;
 
 public class PolyMorphismApplication {
     public static void main(String[] args){

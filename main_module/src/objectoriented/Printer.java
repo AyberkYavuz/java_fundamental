@@ -1,4 +1,4 @@
-package sourcepackage;
+package objectoriented;
 
 // Generics are used for preventing the code duplication.
 // T stands for type of the object.

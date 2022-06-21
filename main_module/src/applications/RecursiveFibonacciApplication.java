@@ -1,6 +1,6 @@
 package applications;
 import java.util.Scanner;
-import sourcepackage.FibonacciHandler;
+import algorithms.FibonacciHandler;
 
 public class RecursiveFibonacciApplication {
     public static void main(String[] args) {
