@@ -1,8 +1,10 @@
 package objectoriented;
 
 import annotations.RunImmediately;
+import interfaces.Eating;
+import interfaces.MakingSound;
 
-public class Dog extends Animal implements MakingSound, Eating{
+public class Dog extends Animal implements MakingSound, Eating {
 
     public Dog(int age, String name) {
         super(age, name);

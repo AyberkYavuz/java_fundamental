@@ -1,6 +1,8 @@
 package objectoriented;
 
-public class Cat extends Animal implements MakingSound{
+import interfaces.MakingSound;
+
+public class Cat extends Animal implements MakingSound {
 
     public Cat(int age, String name) {
         super(age, name);
