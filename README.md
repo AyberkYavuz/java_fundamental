@@ -5,7 +5,7 @@ This repository is for containing source codes of Java programming fundamentals.
 * Primitive Data Types
 * LinkedList Vs ArrayList
 * HashMap Usage
-* Abstract Clas Usage
+* Abstract Class Usage
 * Interface Usage
 * Recursion
 * Custom Annotations Usage
