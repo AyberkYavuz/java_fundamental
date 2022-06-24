@@ -8,10 +8,11 @@ public class SortingApplication {
     private static Random random = new Random();
     public static void main(String[] args) {
 
-        int[] numbers = new int[10];
+        int[] numbers = new int[4];
         numbers = initializeNumbers(numbers);
         System.out.println("Array");
         printArray(numbers);
+
         BubbleSortHandler bubbleSortHandler = new BubbleSortHandler(numbers);
         numbers = bubbleSortHandler.bubbleSort();
         System.out.println("Sorted Array");
