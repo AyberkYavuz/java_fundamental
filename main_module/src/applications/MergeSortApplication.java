@@ -1,16 +1,26 @@
 package applications;
 
-public class MergeSortApplication {
+import objectoriented.Stopwatch;
 
+import java.util.Random;
+
+
+public class MergeSortApplication {
+    private static Random random = new Random();
     public static void main(String[] args) {
 
-        int[] inputArray = new int[]{8, 1, 10, 2};
-        System.out.println("Before Sort");
-        printArray(inputArray);
+        // int[] inputArray = new int[]{8, 1, 10, 2}; // Algorithm Degging Data
+        int[] inputArray = new int[1000000];
+        inputArray = initializeInputArray(inputArray);
 
+        System.out.println("Before Sort");
+        //printArray(inputArray);
+        Stopwatch stopwatch = new Stopwatch();
         mergeSort(inputArray);
+        double elapsedTime = stopwatch.elapsedTime();
         System.out.println("After Sort");
-        printArray(inputArray);
+        // printArray(inputArray);
+        System.out.println(elapsedTime);
     }
     public static void mergeSort(int[] inputArray){
         int inputLength = inputArray.length;
@@ -77,5 +87,12 @@ public class MergeSortApplication {
         for(int i=0; i<array.length; i++){
             System.out.println(array[i]);
         }
+    }
+
+    private static int[] initializeInputArray(int inputArray[]){
+        for(int i=0; i < inputArray.length; i++){
+            inputArray[i] = random.nextInt(100000);
+        }
+        return inputArray;
     }
 }
